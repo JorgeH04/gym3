@@ -28,36 +28,42 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
+   <!-- Page Preloder -->
+   <div id="preloder">
+    <div class="loader"></div>
+</div>
 
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container">
-            <div class="logo">
-                <a href="./index.html">
-                    <img src="img/logo.png" alt="">
-                </a>
-            </div>
-            <div class="nav-menu">
-                <nav class="mainmenu mobile-menu">
-                    <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./about-us.html">Sobre mí</a></li>
-                        <li><a href="./schedule.html">Programa</a></li>
-                        <li><a href="./gallery.html">Galería</a></li>
-                       
-                        <li><a href="./contact.html">Contacto</a></li>
-                    </ul>
-                </nav>
-                
-            </div>
-            <div id="mobile-menu-wrap"></div>
+<!-- Header Section Begin -->
+<header class="header-section header-normal">
+    <div class="container">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="img/logo-normal.png" alt="">
+            </a>
         </div>
-    </header>
-    <!-- Header End -->
+        <div class="nav-menu">
+            <nav class="mainmenu mobile-menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="active"><a href="./about-us.html">About</a></li>
+                    <li><a href="./schedule.html">Schedule</a></li>
+                    <li><a href="./gallery.html">Portfolio</a></li>
+                    <li><a href="./blog.html">Blog</a>
+                        <ul class="dropdown">
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contact.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right search-switch">
+                <i class="ti-search"></i>
+            </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>
+<!-- Header End -->
 
     <!-- Site Breadcrumb Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="img/about-breadcrumb-bg.jpg">
